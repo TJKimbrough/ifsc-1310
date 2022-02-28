@@ -4,7 +4,57 @@ Stylesheet for CSS Demo
 
 */
 
+/* ---------------Box Sizing----------------- */
 
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+
+
+/* ---------------Global Style----------------- */
+/* Color Scheme
+9F3DA6
+622666
+DC54E6 (main color)
+E85AF2
+C34BCC
+*/
 body{
-    background-color: darkviolet;
+    background-color: #DC54E6;
+    font-family:'Fjalla One', sans-serif;
+    margin: 0;
+}
+
+header.primary{
+    background-color: #DC54E6;
+
+    text-align: center;
+
+    color:#ffffff;
+
+    /*Long Form*/
+    padding-top: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    /*Short Hand*/
+    /*top, right, bottom, left*/
+    padding: 40px 40px 40px 40px;
+    /*Also*/
+    /*top, bottom / right, left*/
+    padding: 40px 40px;
+    /*sets all*/
+    padding: 40px;
+
+    text-shadow: 2px 2px 5px #000000;
+}
+
+header.primary h1{
+    font-size:1rem;
 }
