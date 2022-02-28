@@ -56,5 +56,36 @@ header.primary{
 }
 
 header.primary h1{
+    font-size: 2.6rem;
+    margin:20px 0px;
+}
+
+header.primary h1 a{
+    color:#ffffff;
+    text-decoration:none;
+}
+
+header.primary h2{
+    font-size: 1rem;
+    margin:20px auto 40px;
+}
+header.primary nav{
+    font-size: 1rem;
+    margin: 20px;
+}
+
+header.primary nav ul{
     font-size:1rem;
+    background:red;
+    padding:0;
+}
+
+header.primary nav ul li{
+    list-style-type:none;
+    font-size:1rem;
+    background:#ffffff;
+}
+
+header.primary nav li a{
+    font-size: 1rem;
 }
