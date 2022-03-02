@@ -122,6 +122,10 @@ header.primary nav a:hover{
     padding: 3px 14px;
 }
 
+#intro h2{
+    border-bottom: 1px solid #000000;
+}
+
 h1, h2, h3, h4, h5, h6{
     color:#140726;
 }
