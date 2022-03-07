@@ -22,6 +22,10 @@ html {
     margin: 40px auto;
 }
 
+img{
+    max-width: 100%;
+}
+
 
 /* ---------------Global Style----------------- */
 /* Color Scheme
@@ -126,14 +130,93 @@ header.primary nav a:hover{
     border-bottom: 1px solid #000000;
 }
 
-h1, h2, h3, h4, h5, h6{
-    color:#140726;
+h1, h3, h4, h5, h6{
+    color: #140726;
 }
 
+#content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
+#content article.post{
+    width:30%;
+    box-shadow:0 4px 8px rgba(0,0,0,0.4);
+    padding: 10px;
+    border-radius: 4px;
+    font-size:0.7rem;
+}
 
+#content article.post:hover{
+    box-shadow:0 8px 16px rgba(0,0,0,0.4);
+}
 
+article.post time.post-date, figcaption, .post-meta{
+    text-transform: uppercase;
+    color:#000000;
+}
 
+.post figure{
+    margin:0;
+}
+
+.post img{
+    border: 1px solid #140726;
+    padding: 2px;
+    margin: 5px 0px;
+}
+
+.post a{
+    color:#140726;
+    transition: 1s;
+}
+
+.post a:hover, .post a:active{
+    text-decoration: none;
+}
+
+aside[role="complementary"]{
+    background-color: #140726;
+    color: #DC54E6;
+    padding: 1.8rem;
+}
+
+aside div.container{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+aside article.widget{
+    width:44%;
+}
+
+aside article.widget h2{
+    color:#ffffff;
+}
+
+article.widget a{
+    color:#ffffff;
+    display: block;
+}
+
+article.widget footer{
+    display:none;
+}
+
+#colophon{
+    background-color:#8C2066;
+}
+
+#colophon h6{
+    padding:20px;
+    margin:0;
+    text-align:center;
+    color:#fff;
+    font-size:.8rem;
+    text-transform:uppercase;
+}
 
 
 
