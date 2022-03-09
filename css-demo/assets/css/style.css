@@ -26,6 +26,26 @@ img{
     max-width: 100%;
 }
 
+.img-right{
+    float: right;
+    margin-left: 20px;
+    border: 2px solid #140726;
+    padding: 5px;
+}
+
+.img-left{
+    float:left;
+    margin-right:20px;
+    border:2px solid #140726;
+    padding:5px;
+}
+
+.img-center{
+    display: block;
+    margin:20px auto;
+    border: 2px solid #140726;
+}
+
 
 /* ---------------Global Style----------------- */
 /* Color Scheme
@@ -138,6 +158,8 @@ h1, h3, h4, h5, h6{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    border: 1px;
+    padding-bottom:2.8rem;
 }
 
 #content article.post{
@@ -218,9 +240,80 @@ article.widget footer{
     text-transform:uppercase;
 }
 
+#additional-elements h2{
+    color: #140726;
+    border-bottom: 1px solid #000000;
+}
 
+#additional-elements h3{
+    border-left:8px solid #140726;
+    padding:5px 10px;
+}
 
+#additional-elements a{
+    color: #8C2066;
+}
 
+#additional-elements a:hover{
+    color: #140726;
+    text-decoration:none;
+}
+
+table{
+    width:100%;
+    border: 1px solid #140726;
+    border-collapse:collapse;
+}
+
+tr:nth-child(odd){
+    background-color: #e486eb;
+}
+
+tr:hover{
+    background-color: #140726;
+    color:#ffffff;
+}
+
+th{
+    border: 1px solid #140726;
+    background-color: #8C2066;
+    width: 33%;
+    padding: 5px;
+    color: #000;
+}
+
+td{
+    border: 1px solid #140726;
+    padding: 5px;
+}
+
+td:nth-child(2n), td:nth-child(3n){
+    text-align: right;
+}
+
+#additional-elements ol{
+    list-style-type:upper-roman;
+}
+
+#additional-elements ul{
+    list-style-type:disc;
+}
+
+dl{
+
+}
+
+dt{
+    font-weight:bold;
+}
+
+dd{
+    margin-left:0;
+}
+
+dd + dt{
+    margin-top: 1rem;
+}
 
 
 
